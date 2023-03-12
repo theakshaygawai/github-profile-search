@@ -4,9 +4,10 @@ https://api.github.com/users
 https://api.github.com/users/akshaygawai
 
 client Id :
-b366b7252db5d2bfc29a
+create your client id on github 
 
 Client Secret :
-0d3f2e0bf2d24c96566e1819d60b931b12e587db
+after create your client id on github you will get secretkey on same page
+
 
 
