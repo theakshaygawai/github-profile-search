@@ -84,15 +84,15 @@ import GitHubRepos from './repos/GitHubRepos';
                         <input type="submit" value="search" className='btn btn-primary btn-md ml-2' />
                       </div>
                     </form>
-                   // <pre>{JSON.stringify(this.state.gitHubUsername)}</pre>
+                    <pre>{JSON.stringify(this.state.gitHubUsername)}</pre>
                   </div>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col">
-               // <pre>{JSON.stringify(this.state.gitHubProfile)}</pre>
-               // <pre>{JSON.stringify(this.state.gitHubRepos)}</pre>
+                <pre>{JSON.stringify(this.state.gitHubProfile)}</pre>
+                <pre>{JSON.stringify(this.state.gitHubRepos)}</pre>
 
                 {
                   Object.keys(this.state.gitHubProfile).length > 0 ?
