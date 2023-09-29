@@ -12,7 +12,7 @@ import ProfileDetails from './ProfileDetails';
           <div className="row">
             <div className="col-md-3">
                 <GitHubProfileCard gitHubProfile={this.props.gitHubProfile}/>
-                <pre>{JSON.stringify(this.props)}</pre>
+                //<pre>{JSON.stringify(this.props)}</pre>
             </div>
             <div className="col-md-9">
                 <ProfileDetails gitHubProfile={this.props.gitHubProfile}/>
